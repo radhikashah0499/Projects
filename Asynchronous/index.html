@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asynchronous Js</title>
+
+</head>
+<body>
+    <div class="title">
+        <h2 > Javascript Callback </h2>
+
+    </div>
+    <script> 
+   var name= prompt( "Please Tell your name" );
+   
+    </script>
+
+    <p id="demo"></p>
+<script>
+            
+
+
+        function displaySum(namev)
+        {
+            document.getElementById("demo").innerHTML = namev;
+        }
+
+        function findSum(name,Callbackfunction) {
+            var a = "We are pleased to meet you"
+        var greeting = a+ " "+ name;
+        Callbackfunction(greeting);
+        }
+
+        findSum( name, displaySum);
+</script>
+
+
+
+
+<script>
+    function func() {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      resolve('Hi');
+    }, 2000);
+  });
+}
+
+async function msg() {
+  const msg = await func();
+  console.log('Message:', msg);
+}
+
+msg(); 
+</script>
+<h2></h2>
+
+    
+</body>
+</html>
