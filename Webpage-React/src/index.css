@@ -1,3 +1,5 @@
+
+
 header{
     position :fixed;
     top:0;
@@ -59,9 +61,10 @@ header .navigation li Link:hover
     color: brown;
 
 }
-.page {
+.page{
     margin-top: 60px;
 }
+
 .banner{
     position: relative;
     width : 100%;

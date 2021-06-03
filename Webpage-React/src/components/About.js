@@ -1,9 +1,10 @@
 import React from 'react';
 import Carousel from './Carousel';
+import  Div from '../styledComponents';
 import '../index.css';
 const About = () =>{
     return (
-        <div className ="page">
+        <div className="page">
         <section class="about" id="about">
         <div class="row">
             <div class="col50">
@@ -23,7 +24,7 @@ const About = () =>{
      </div>
 
     </section>
-        </div>
+    </div>
     )
 }
 
