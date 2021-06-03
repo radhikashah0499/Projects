@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import axios from 'axios';
+
 const Carousel = () => {
   let arr = [];
   var i = 0;

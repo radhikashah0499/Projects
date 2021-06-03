@@ -1,4 +1,5 @@
 import React from 'react';
+import  Div from '../styledComponents';
 import '../index.css';
 
 const Home = ()=>{
@@ -18,7 +19,7 @@ const Home = ()=>{
         </div> 
 
     </section>
-    </div>
+   </div>
     
     )
 };

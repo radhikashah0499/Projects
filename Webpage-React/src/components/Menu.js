@@ -1,4 +1,5 @@
 import React from 'react';
+import  Div from '../styledComponents';
 import '../index.css'; 
 import ImageCard from './ImageCard';
 import img1 from '../assets/images/masala.png' ;
@@ -11,7 +12,7 @@ import img6 from '../assets/images/lemon.jpeg';
 
 const Menu = () =>{
     return (
-    <div className="page"> 
+    <div className="page">
     <section className="menu" id="menu"> 
         <div className="title">
             <h2 className="titleText"><span> M</span>enu</h2>

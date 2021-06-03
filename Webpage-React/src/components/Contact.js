@@ -1,13 +1,14 @@
 import React from 'react';
-import '../index.css';
+import  Div from '../styledComponents';
 import SocialLogo from './SocialLogo';
 import img1 from '../assets/icons/insta.jpeg';
 import img2 from '../assets/icons/face.jpeg';
 import img3 from '../assets/icons/twiiter.jpeg';
 import img4 from '../assets/images/contact.jpeg'
+import '../index.css';
 const Contact = () =>{
     return (
-    <div className="page">  
+    <div className="page">
         <section class="contact" id="contact">
         <div class="title">
             <h2 class="titleText"><span> C</span>ontact Us</h2>
@@ -31,9 +32,10 @@ const Contact = () =>{
                         
                     </div>
                 </div>
-                <div class="col50">
+                <div class="col50" >
                     <div class="imgBx" id="msg">
                         <img class="imageToDisplay" src= {img4} />
+                        
                     </div>
     
                 </div>
